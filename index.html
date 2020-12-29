@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+
+    <div class="contentContainer">
+
+
+    <div class="question">
+        
+    <div class="questionContent">
+        <p>from left to right who was the fourth
+        character</p>
+
+    <form name="imageQuestion" 
+        onsubmit="return validateForm()" method="post">
+            <label>Answer:</label>
+            <br />
+            <input type="text" name="answer" placeholder="hope you didnt blink">
+           <br />
+           <br />
+        </form>
+        <button id="submit" onclick="submit()">submit</button>
+
+        </div>
+    </div>
+
+    <div class="keyCode">
+        <h2>Nice as a reward here is the number that goes first for the keycode</h2>
+        
+
+        <div class="codeContainer">
+        <img height="100px" src="key.svg">
+        <h1 class="code">2</h1>
+        </div>
+
+        <div>
+            <button onclick="nextChllenge()" id="nextBtn">next challenge</button>
+        </div>
+    </div>
+
+
+    <div class="challengeContent">
+        <div>
+        <h1>card tower</h1>
+        </div>
+        <img height="300px" width="100%" src="cardTower.jpg">
+        
+        <ul class="cardInstructions">
+            <li>Make sure that you only taken one of the packs of cards.
+                If you have take more than one return the extra packs.
+            </li>
+            <br />
+            <li>Using the deck of cards make a tower</li>
+            <br />
+            <li>All cards in the deck must be used and the tower 
+                has to be able to stand on its own.
+            </li>
+            <br />
+            <li>
+                Once completed take a photo of the tower. Take it to Jake.
+            </li>
+       
+        </ul>
+
+        <div class="challengeNumber">
+            <h1>11</h1>
+        </div>
+
+
+
+    </div>
+
+
+    </div>
+    
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

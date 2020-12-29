@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fcf16c;
+}
+ul{
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+
+
+.contentContainer{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.question{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+    height: 100vh;
+    width: 100%;
+    background-color: #fcf16c;
+}
+
+.question p{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.questionContent{
+    padding: 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#submit{
+    width: 40%;
+    font-size: 15px;
+    background-color: transparent;
+    border: transparent;
+    border: 5px solid #e2b6d5;
+    background-color: #f9f9f9;
+}
+
+.keyCode{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    /* background-color:#333; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyCode h2{
+    width: 70%;
+}
+
+.code{
+    font-size: 100px;
+    border-bottom: 8px solid #e2b6d5;
+    padding-bottom: 5px;
+    width: 50px;
+}
+
+.codeContainer{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.challengeContent{
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+.challengeContent h1{
+    text-align: right;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.challengeContent img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cardInstructions{
+    width: 90%;
+    padding-left: 10px;
+}
+
+.challengeNumber{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+
+}
+
+form label{
+    font-size: 20px;
+}
+
+form input{
+    background-color: transparent;
+    border: transparent;
+    border-bottom:5px solid #e2b6d5;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#nextBtn{
+    width: 100%;
+    padding: 1rem;
+    font-size: 20px;
+    background-color: transparent;
+    border: transparent;
+    border: 5px solid #e2b6d5;
+    background-color: #f9f9f9;
+}
+
+
+
+
+
+
